@@ -29,5 +29,11 @@ header .container nav .menu{
 
 header .container nav .menu li{
     margin-right: 3rem;
+}
 
+header .container nav .menu .menu-item{
+    display: inline-block;
+    color: var(--primary-color);
+    font-weight: 700;
+    line-height: 2.4rem;
 }
