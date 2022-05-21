@@ -25,7 +25,7 @@ header .container nav{
 header .container nav .menu{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header .container nav .menu li{
@@ -38,6 +38,18 @@ header .container nav .menu .menu-item{
     color: var(--primary-color);
     font-weight: 400;
     line-height: 2.4rem;
+}
+
+header .container nav .mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+header .container nav .mobile-menu div{
+    width: 3.2rem;
+    height: 0.2rem;
+    background: #fff;
+    margin: 0.8rem;
 }
 
 /*Section Hero*/
@@ -233,8 +245,4 @@ footer .container .copy{
     font-weight: 400;
     line-height: 2rem;
     padding: 3rem;
-}
-
-footer .container .copy span{
-    color: red;
 }
