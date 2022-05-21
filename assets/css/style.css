@@ -179,6 +179,29 @@ header .container nav .mobile-menu.active .line3{
     margin-bottom: 3rem;
 }
 
+.s-about .container .about .menu-social{
+    height: 3rem;
+    width: 22rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.s-about .container .about .menu-social a{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5rem;
+}
+
+.s-about .container .about .menu-social img{
+    margin: 0;
+    padding: 0;
+    max-height: 3rem;
+}
+
 .s-about .container img{
     width: 30rem;
     height: 40rem;
@@ -212,7 +235,7 @@ header .container nav .mobile-menu.active .line3{
     width: 100%;
     height: 30rem;
     background-color: var(--white-color);
-    border-radius: 4px;
+    border-radius: 1rem;
     margin-right: 3.1rem;
     cursor: pointer;
 }
