@@ -5,34 +5,16 @@
 }
 
 @media (max-width: 768px){
-    body{
-        overflow-x: hidden;
-    }
-    header .container nav .menu{
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 40vw;
-        height: 92vh;
-        background: var(--black-color-medium);
-        flex-direction: column;
+    .s-about .container{
+        display: flex;
         align-items: center;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-        border-top-left-radius: 3rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 3rem 0;
     }
-
-    header .container nav .menu li{
-        margin-left: 0;
-        opacity: 0;
-    }
-
-    header .container nav .mobile-menu{
-        display: block;
-    }
-
-    header .container nav .menu.active{
-        transform: translateX(0);
+    .s-about .container .about{
+        align-items: center;
+        max-width: 50rem;
     }
 }
 
@@ -40,16 +22,4 @@
 }
 
 @media (max-width: 480px){
-}
-
-@keyframes navLinkFade {
-    from{
-        opacity: 0;
-        transform: translateX(5rem);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0);
-        margin-right: 0;
-    }
 }

@@ -68,8 +68,6 @@ header .container nav .mobile-menu.active .line3{
 /*Section Hero*/
 
 .s-hero{
-    background: url(../img/s-hero-bg.jpg) no-repeat center center;
-    background-size: cover;
     height: 100vh;
 }
 
@@ -144,13 +142,14 @@ header .container nav .mobile-menu.active .line3{
 /*Section about*/
 
 .s-about{
-    background-color: rgba(30, 30, 30, 0.5);
+    background-color: rgba(30, 30, 30, 0.6);
 }
 
 .s-about .container{
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding: 3rem 0;
 }
 
@@ -213,18 +212,33 @@ header .container nav .mobile-menu.active .line3{
 /*Section Success*/
 
 .s-success{
-    padding: 7.2rem;
-    margin: 2rem auto;
+    padding: 7.4rem;
+    margin: 4rem auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .s-success .container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
-    gap: 4.4rem;
+    justify-content: center;
 }
 
 .s-success .container .cards{
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.s-success .container .cards .tittle-success {
+
 }
 
 .s-success .container .cards .card.ative{
@@ -232,11 +246,12 @@ header .container nav .mobile-menu.active .line3{
 }
 
 .s-success .container .cards .card{
-    width: 100%;
+    width: 24rem;
     height: 30rem;
     background-color: var(--white-color);
     border-radius: 1rem;
-    margin-right: 3.1rem;
+    margin: 1.5rem 0;
+    margin-left: 3rem;
     cursor: pointer;
 }
 
