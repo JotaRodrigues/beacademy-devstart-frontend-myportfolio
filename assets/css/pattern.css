@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #dcf64b;
+    --primary-color: #039be5;
     --second-color: #a0b435;
     --black-color: #000000;
     --black-color-medium: #0c0c0c;
@@ -53,7 +53,7 @@ h2 span{
     font-weight: 600;
     line-height: 2rem;
     padding: 1rem 2rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     background-color: transparent;
     color: var(--primary-color);
 }

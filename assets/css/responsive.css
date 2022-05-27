@@ -5,6 +5,17 @@
 }
 
 @media (max-width: 768px){
+    .s-about .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 3rem 3rem;
+    }
+    .s-about .container .about{
+        align-items: center;
+        max-width: 50rem;
+    }
 }
 
 @media (max-width: 600px){

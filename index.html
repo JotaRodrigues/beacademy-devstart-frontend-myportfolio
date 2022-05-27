@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/pattern.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="shortcut icon" href="./assets/img/icon-page.svg" />
 
-    <title>Jonathan M. Rodrigues</title>
+    <title>Portfólio | Jonathan M.R.</title>
 </head>
 
 <body>
@@ -22,12 +23,17 @@
                 <img src="./assets/img/be-logo.svg" alt="Logo be-academy">
             </div>
             <nav>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
                 <ul class="menu">
                     <li><a href="#about" class="menu-item">QUEM SOU</a></li>
                     <li><a href="#cards" class="menu-item">CARDS</a></li>
                     <li><a href="#cases" class="menu-item">CASES</a></li>
+                    <li><a href="#contact" class="btn-primary"><span>PEÇA UM ORÇAMENTO</span></a></li>
                 </ul>
-                <a href="#contact" class="btn-primary"><span>PEÇA UM ORÇAMENTO</span></a>
             </nav>
         </div>
     </header>
@@ -38,7 +44,7 @@
                 <div class="tittle-box">
                     <h1>Olá! Eu sou<br>
                         <span>Jonathan M. Rodrigues</span></h1>
-                    <h2>Ciêntista da Computação e Desenvolvedor Web</h2>
+                    <h2>Ciêntista da Computação & Desenvolvedor Web</h2>
                     
                     <div class="techs">
                         <a href="">
@@ -60,9 +66,19 @@
             <div class="container">
                 <div class="about">
                     <h2>Sobre mim<span>.</span></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sit quasi quia similique! Sapiente magni cumque, dignissimos deserunt earum necessitatibus ipsam perferendis nulla rem obcaecati. Minima harum perspiciatis nam perferendis!</p>
-
-                    <button class="btn-download" >Curriculum Vitae</button>
+                    <p>Olá! Meu nome é Jonathan, mas todos me conhecem por "J". Tenho 26 anos e moro em Foz do Iguaçu, lar de uma das sete maravilhas do mundo. Sou apaixonado pela área de tecnologia onde atualmente estou cursando ciências da computação e desenvolvimento web.</p>
+                    
+                    <div class="menu-social">
+                        <a href="https://www.instagram.com/jonathan_morais_rodrigues/" target="_blank">
+                            <img src="./assets/img/icon-instagram.svg" alt="Social - Intagram">
+                        </a>
+                        <a href="https://www.linkedin.com/in/jonathanmoraisrodrigues" target="_blank">
+                            <img src="./assets/img/icon-linkedin.svg" alt="Social - Linkedin">
+                        </a>
+                        <a href="https://github.com/JotaRodrigues" target="_blank">
+                            <img src="./assets/img/icon-github.svg" alt="Social - Github">
+                        </a>
+                    </div>
                 </div>
                 <img src="./assets/img/perfil.jpg" alt="Homem olhando para a esquerda">
             </div>
@@ -70,23 +86,23 @@
 
         <section class="s-success">
             <div class="container">
-                <div class="tittle-success">
-                    <span class="tag">#Vemcomigo</span>
-                    <h2><span>Sucesso</span><br>Tem <br>nome!</h2>
-                </div>
                 <div class="cards">
+                    <div class="tittle-success">
+                        <span class="tag">#Vemcomigo</span>
+                        <h2><span>Sucesso</span><br>Tem <br>nome!</h2>
+                    </div>
                     <div class="card ative">
                         <div class="card-tittle">
-                            <h3>+2</h3>
+                            <h3>+100</h3>
                         </div>
                         <div class="card-info">
-                            <p>Clientes <br>
-                            <strong>Felizes</strong></p>
+                            <p>Copos de <br>
+                            <strong>Café tomados</strong></p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-tittle">
-                            <h3>+5</h3>
+                            <h3>+4</h3>
                         </div>
                         <div class="card-info">
                             <p>Projetos <br>
@@ -95,25 +111,35 @@
                     </div>
                     <div class="card">
                         <div class="card-tittle">
-                            <h3>+100</h3>
+                            <h3>+2</h3>
                         </div>
                         <div class="card-info">
-                            <p>Copos de <br>
-                            <strong>Café</strong></p>
+                            <p>Clientes <br>
+                            <strong>Felizes</strong></p>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="s-cases">
+
+        </section>
+
+        <section class="s-contact">
+
         </section>
     </main>
     
     <footer>
         <div class="container">
             <div class="copy">
-                <p>Feito com carinho ❤</p>
+                <p>Jonathan de Morais Rodrigues | 2022</p>
             </div>
         </div>
     </footer>
+    
+    <script src="./assets/js/mobile-navbar.js"></script>
 
 </body>
 
