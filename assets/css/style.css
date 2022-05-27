@@ -237,8 +237,8 @@ header .container nav .mobile-menu.active .line3{
     flex-wrap: wrap;
 }
 
-.s-success .container .cards .tittle-success {
-
+.s-success .container .cards .tittle-success h2{
+    font-size: 5.5rem;
 }
 
 .s-success .container .cards .card.ative{
@@ -279,6 +279,9 @@ header .container nav .mobile-menu.active .line3{
     font-size: 3rem;
     line-height: 3.5rem;
 }
+
+/*Section Cases*/
+
 
 /*Footer*/
 
