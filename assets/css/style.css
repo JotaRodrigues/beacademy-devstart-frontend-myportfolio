@@ -237,6 +237,13 @@ header .container nav .mobile-menu.active .line3{
     flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
+=======
+.s-success .container .cards .tittle-success h2{
+    font-size: 5.5rem;
+}
+
+>>>>>>> a621a9e8bceeb8a337b09ecbb92c9e00064bb590
 .s-success .container .cards .card.ative{
     background-color: var(--primary-color);
 }
@@ -275,6 +282,9 @@ header .container nav .mobile-menu.active .line3{
     font-size: 3rem;
     line-height: 3.5rem;
 }
+
+/*Section Cases*/
+
 
 /*Footer*/
 
