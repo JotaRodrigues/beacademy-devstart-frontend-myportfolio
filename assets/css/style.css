@@ -237,10 +237,6 @@ header .container nav .mobile-menu.active .line3{
     flex-wrap: wrap;
 }
 
-.s-success .container .cards .tittle-success {
-
-}
-
 .s-success .container .cards .card.ative{
     background-color: var(--primary-color);
 }
