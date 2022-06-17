@@ -5,6 +5,51 @@
 }
 
 @media (max-width: 768px){
+    /* Mobile Header */
+    header .container nav .menu li{
+        display: none;
+    }
+    header .container .mobile-menu{
+        width: 100%;
+        margin-top: 5rem;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        text-align: center;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    header .container .mobile-menu .menu-buttom{
+        position: relative;
+        top: -5rem;
+        right: 2rem;
+        z-index: 5;
+    }
+    header .container .mobile-menu ul{
+        width: 100%;
+        display: none;
+    }
+    header .container .mobile-menu li{
+        width: 100%;
+        margin: 0;
+        padding: 4rem;
+        font-weight: 700;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background: var(--primary-color);
+        border: 1px solid var(--black-color);
+    }
+    header .container .mobile-menu li a{
+        color: var(--black-color);
+    }
+    header .container .mobile-menu li:hover{
+        background: var(--second-color);
+    }
+
+    /* About Responsive */
     .s-about .container{
         display: flex;
         align-items: center;
